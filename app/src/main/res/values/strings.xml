@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">StudentManagement</string>
+    <string name="text_button_add_dialog">Add</string>
+    <string name="text_hint_url_dialog">Enter url image</string>
+    <string name="text_hint_name_dialog">Enter Name</string>
+    <string name="text_hint_level_dialog">Enter Level</string>
 </resources>

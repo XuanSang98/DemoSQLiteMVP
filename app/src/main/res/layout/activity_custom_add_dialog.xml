@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_20">
+
+    <EditText
+        android:id="@+id/edittext_url_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:hint="@string/text_hint_url_dialog"
+        android:paddingLeft="@dimen/dp_20" />
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_marginTop="@dimen/dp_20"
+        android:hint="@string/text_hint_name_dialog"
+        android:paddingLeft="@dimen/dp_20" />
+
+    <EditText
+        android:id="@+id/edittext_level"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_marginTop="@dimen/dp_20"
+        android:hint="@string/text_hint_level_dialog"
+        android:paddingLeft="@dimen/dp_20" />
+
+    <Button
+        android:id="@+id/button_add_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:layout_marginTop="@dimen/dp_20"
+        android:paddingLeft="@dimen/dp_20"
+        android:text="@string/text_button_add_dialog"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
